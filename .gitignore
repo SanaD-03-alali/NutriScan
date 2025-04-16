@@ -46,14 +46,11 @@ Thumbs.db
 
 # Large files
 Food-101/
-food101_model.pth
 *.h5
-*.pth
-*.ckpt
-*.pt
 *.hprof
-nutri/assets/models/
 nutri/android/java_pid*.hprof
 
-# Allow nutri/lib
+# Allow specific files
+!food101_model.pth
+!nutri/assets/models/food101_model_mobile.pt
 !nutri/lib/ 
