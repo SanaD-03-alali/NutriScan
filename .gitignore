@@ -53,4 +53,7 @@ food101_model.pth
 *.pt
 *.hprof
 nutri/assets/models/
-nutri/android/java_pid*.hprof 
+nutri/android/java_pid*.hprof
+
+# Allow nutri/lib
+!nutri/lib/ 
