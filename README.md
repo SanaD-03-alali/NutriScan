@@ -3,11 +3,7 @@
 NutriScan is a mobile application that helps users identify food items and provides nutritional information. The app uses image processing techniques to recognize food from images and barcode scanning for packaged foods.
 
 ## Demo
-
-<div align="center">
-  <video src="[Demo](https://github.com/SanaD-03-alali/NutriScan/blob/main/demo.mp4)" width="100%" controls>
-  </video>
-</div>
+[Demo](https://github.com/SanaD-03-alali/NutriScan/blob/main/demo.mp4)
 
 ## Project Structure
 
