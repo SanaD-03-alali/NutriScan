@@ -1,6 +1,6 @@
 # NutriScan
 
-NutriScan is a mobile application that helps users identify food items and provides nutritional information. The app uses computer vision to recognize food from images and barcode scanning for packaged foods.
+NutriScan is a mobile application that helps users identify food items and provides nutritional information. The app uses image processing techniques to recognize food from images and barcode scanning for packaged foods.
 
 ## Project Structure
 
