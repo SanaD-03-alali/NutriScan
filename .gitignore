@@ -52,4 +52,5 @@ Food-101/
 
 # Allow specific files
 !food101_model.pth
-!nutri/assets/models/food101_model_mobile.pt 
+!nutri/assets/models/food101_model_mobile.pt
+!nutri/lib/**/* 
