@@ -4,10 +4,7 @@ NutriScan is a mobile application that helps users identify food items and provi
 
 ## Demo
 
-https://github.com/SanaD-03-alali/NutriScan/assets/demo.mp4
-
-<video src="demo.mp4" controls="controls" style="max-width: 730px;">
-</video>
+https://user-images.githubusercontent.com/127950061/NutriScan/assets/demo.mp4
 
 ## Project Structure
 
