@@ -89,7 +89,3 @@ The nutritional information is sourced from a comprehensive database (`nutrition
 - [Food-101 dataset](https://www.kaggle.com/datasets/kmader/food41) for food recognition training
 - Flutter framework for mobile app development
 - Supabase for backend services
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
