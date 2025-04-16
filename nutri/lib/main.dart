@@ -7,8 +7,10 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'screens/saved_barcodes_screen.dart';
 import 'providers/saved_products_provider.dart';
 import 'models/database_service.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-void main() async {
+Future<void> main() async {
+  await dotenv.load(fileName: ".env");
   WidgetsFlutterBinding.ensureInitialized();
   await Classifier.loadModel();
   await DatabaseService.initialize();  

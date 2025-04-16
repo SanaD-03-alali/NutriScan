@@ -1,10 +1,11 @@
 import 'dart:io';
 import 'package:google_generative_ai/google_generative_ai.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class VisionService {
   static final model = GenerativeModel(
     model: 'gemini-2.0-flash',
-    apiKey: 'AIzaSyDd-VzY_kW3fJbG_yyzZXo_u3h1qPnRFTY',
+    apiKey: dotenv.env['GOOGLE_API_KEY'] ?? '',
   );
 
   static Future<bool> isFood(String imagePath) async {

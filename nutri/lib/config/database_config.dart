@@ -1,7 +1,9 @@
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 class DatabaseConfig {
   // Supabase Configuration
-  static const String supabaseUrl = 'https://ymoroqimulefuqrdiziw.supabase.co';
-  static const String supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inltb3JvcWltdWxlZnVxcmRpeml3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzkyNjY2NDIsImV4cCI6MjA1NDg0MjY0Mn0.NnuA9mXBQ2pj-Mg0Zq1bjFUq1qSsedq2S0qcAeBzaeA';
+  static String get supabaseUrl => dotenv.env['SUPABASE_URL'] ?? '';
+  static String get supabaseKey => dotenv.env['SUPABASE_KEY'] ?? '';
   
   // Table name
   static const String tableName = 'nutrition_data';
