@@ -101,7 +101,7 @@ This document details the hyperparameters and results of the seven experiments c
 | Hyperparameter      | Value                                           |
 |---------------------|-------------------------------------------------|
 | Model               | ResNet50 (pretrained)                           |
-| Batch Size          | 64                                              |
+| Batch Size          | 256                                             |
 | Epochs              | 15                                              |
 | Learning Rate       | 0.0005                                          |
 | Optimizer           | Adam (weight_decay=5e-4)                        |
@@ -120,7 +120,7 @@ This document details the hyperparameters and results of the seven experiments c
 | Hyperparameter      | Value                                           |
 |---------------------|-------------------------------------------------|
 | Model               | ResNet50 (pretrained)                           |
-| Batch Size          | 64                                              |
+| Batch Size          | 256                                              |
 | Epochs              | 20                                              |
 | Learning Rate       | 0.0005                                          |
 | Optimizer           | Adam (weight_decay=5e-4)                        |
