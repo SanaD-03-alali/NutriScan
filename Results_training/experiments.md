@@ -123,12 +123,12 @@ This document details the hyperparameters and results of the seven experiments c
 | Batch Size          | 256                                              |
 | Epochs              | 20                                              |
 | Learning Rate       | 0.0005                                          |
-| Optimizer           | Adam (weight_decay=5e-4)                        |
+| Optimizer           | Adam (weight_decay=1e-3)                        |
 | Loss Function       | Cross Entropy                                   |
-| Regularization      | L2 (5e-4), Dropout (0.3)                        |
+| Regularization      | L2 (1e-3), Dropout (0.3)                        |
 | Data Augmentation   | Flip, Rotation, Color Jitter, Crop, Erasing     |
 | LR Scheduler        | StepLR (step_size=5, gamma=0.2)                 |
-| Frozen Layers       | All except layer3, layer4, and fc              |
+| Frozen Layers       | All except layer4, and fc              |
 | Training / Val Acc  | **88.17% / 85.55%**                             |
 | Training / Val Loss | **0.3 / 0.5**                                   |
 
